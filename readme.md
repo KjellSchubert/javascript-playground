@@ -3,12 +3,14 @@ Personal notes & cheatsheet on JS.
 node.js
 ---
 * tests [mocha](https://www.npmjs.org/package/mocha) (never tried [jasmine](https://www.npmjs.org/package/jasmine-node))
-* promises Q.js or bluebird.js
+* promises Q.js or bluebird.js. P.S.: just use ES6 Promise
 * prefer lodash.js over underscore.js
 * good web (micro) frameworks express.js, koa.js
 * nodemon
 * good editor brackets.io (with markdown plugin)
 * good MVVM/MVC frameworks knockout.js and of course Angular.js
+* auto-format code: find test -type f | xargs js-beautify -r -s 2
+* [streaming handbook](https://github.com/substack/stream-handbook)
 
 Angular.js
 ---
